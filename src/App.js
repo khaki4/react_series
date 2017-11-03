@@ -14,7 +14,6 @@ const App = (props) => {
 export default connect(
   (state) => ({
     count: state.count,
-    
   }),
   { increaseAsync, increaseCount }
 )(App)
